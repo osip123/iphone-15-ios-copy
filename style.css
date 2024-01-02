@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(12, 2, 78, 0.719);
+}
+
+.containner{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone__containne{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone{
+    width:220px;
+    height: 432px;
+    border: 5px solid  black;
+    border-radius: 1.4rem;
+    background-color: black;
+}
+
+.display{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1.4rem;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-image: url(./assets/iphone-15-pro-max-stock-1477x3200-17623.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.island{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 1.4rem;
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 23px;
+    backdrop-filter: blur(234px);
+    transition: all .7s ease-in-out;
+}
+
+.island:hover{
+    width: 200px;
+    height: 60px;
+}
+
+.not__red{
+    height: 3px;
+    width: 3px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.micro{
+    width: 28px;
+    height: 2px;
+    border-radius: 34px;
+    background-color: black;
+}
+
+.notif{
+    font-size: 9px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.notif:hover{
+    font-size: 34px;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper{
+    width: 78px;
+    height: 2px;
+    border-radius: 1.4rem;
+    background-color: aliceblue;
+    opacity: .6;
+    transition: .5s;
+}
+
+.swiper:hover{
+    
+}
